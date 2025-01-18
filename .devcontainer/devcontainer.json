@@ -3,5 +3,6 @@
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
         "ghcr.io/devcontainers/features/anaconda:1": {}
-    }
+    },
+    "forwardPorts": [8888]
 }
