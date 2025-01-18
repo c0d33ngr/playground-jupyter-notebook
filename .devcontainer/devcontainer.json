@@ -4,5 +4,8 @@
     "features": {
         "ghcr.io/devcontainers/features/anaconda:1": {}
     },
-    "forwardPorts": [8888]
+    "runArgs": [
+        "-p",
+        "8888:8888"
+    ]
 }
