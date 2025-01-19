@@ -1,11 +1,10 @@
 {
     "name": "Jupyter Notebook Playground",
-    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "image": "mcr.microsoft.com/devcontainers/anaconda",
     "features": {
-        "ghcr.io/devcontainers/features/anaconda:1": {}
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "latest"
+        }
     },
-    "runArgs": [
-        "-p",
-        "8888:8888"
-    ]
+    "forwardPorts": [5000, 8888]
 }
