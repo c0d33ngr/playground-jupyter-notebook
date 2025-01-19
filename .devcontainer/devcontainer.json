@@ -6,5 +6,9 @@
             "version": "latest"
         }
     },
-    "forwardPorts": [5000, 8888]
+    "forwardPorts": [5000],
+    "runArgs": [
+        "-p",
+        "8888:8888"
+    ]
 }
